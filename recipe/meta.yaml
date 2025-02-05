@@ -1,5 +1,5 @@
 {% set name = "gaze" %}
-{% set version = "1.1.6" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/wtetsu/gaze/archive/v{{ version }}.tar.gz
-  sha256: 3fd0ab0b3451e78b85bf2104d5b23b3c4d018cc8f2ed824e103761f8a327c713
+  sha256: d5aec83c31e892acb8ee2c2e04a80d4a465ef76253391d4047b9de161b869868
 
 build:
   number: 0
